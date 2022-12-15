@@ -20,8 +20,10 @@
 
 #page div {
     box-sizing: border-box;
-    border: 1px dashed red;
+    border: 1px hidden red;
     display: inline-block;
-    width: 50%;
-    
+    width: 33%;
+    height: 100%;
+    margin: 0;
+    padding: 30px;
 }
