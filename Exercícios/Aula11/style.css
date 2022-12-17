@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+
+h1 {
+  font-family: Raleway;
+  font-stretch: condensed;
+  font-weight: 300;
+  font-size: 3.5em;
+  color: rgb(90, 50, 230);
+}
+
+.texto {
+  color: #444;
+  font-family: Raleway, Verdana, sans-serif;
+  font-style: italic;
+  text-align: justify;
+}
