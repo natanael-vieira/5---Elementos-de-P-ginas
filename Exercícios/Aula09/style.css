@@ -1,0 +1,61 @@
+body {
+    background-color: pink;
+    padding-top: 50px;
+}
+
+#menu {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #444;
+    color: whitesmoke;
+    padding: 10px;
+    margin: 0;
+    z-index: 10;
+}
+
+.container {
+    position: relative;
+}
+
+.black-box {
+    position: relative;
+    z-index: 1;
+    color: whitesmoke;
+    background-color: black;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+}
+
+.gray-box {
+    position: absolute;
+    z-index: 3;
+    background-color: gray;
+    height: 60px;
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+
+.green-box {
+    position: absolute;
+    z-index: 2;
+    background-color: lightgreen;
+    width: 35%;
+    left: 290px;
+    top: -15px;
+    height: 100px;
+}
+
+#caixa {
+    position: relative;
+    width: 50%;
+    height: 100px;
+    overflow: auto;
+    /*overflow-x: auto;
+    overflow-y: auto;*/
+    border: 1px solid red;
+    text-align: justify;
+}
