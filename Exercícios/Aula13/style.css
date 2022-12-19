@@ -31,11 +31,12 @@ ul.menu li {
 }
 
 ul.menu li a {
+    color: yellow;
     text-decoration: none;
 }
 
 ul.menu li:hover {
-    background-color: blueviolet;
+    background-color: purple;
 }
 
   ul.menu li:hover a {
