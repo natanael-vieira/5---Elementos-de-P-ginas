@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Combobox</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="opcoes">Selecione uma opção:</label>
+            <select name="opcao" id="opcoes">
+                <option value="1">Jazz</option>
+                <option value="2" selected>Metalcore</option>
+                <option value="3">Worship</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <label for="opcoes">Selecione um animal:</label>
+            <select name="pets" id="pets" multiple size="8">
+                <optgroup label="4 Patas">
+                    <option value="dog">Cachorro</option>
+                    <option value="cat">Gato</option>
+                    <option value="hamster" selected>Hamster</option>
+                </optgroup>
+                <optgroup label="Pássaros">
+                    <option value="parrot">Papagaio</option>
+                    <option value="macaw" disabled>Arara</option>
+                    <option value="albatross">Albatroz</option>
+                </optgroup>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
