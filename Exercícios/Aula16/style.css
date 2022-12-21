@@ -1,0 +1,26 @@
+h1 {
+    color: whitesmoke;
+    /*text-shadow: 2px 2px yellowgreen;*/
+    /*text-shadow: 2px 2px 5px yellowgreen;*/
+    text-shadow: 0 0 5px blue, 0 0 5px green;
+}
+
+div {
+    min-height: 150px;
+    margin: 50px;
+}
+
+.box1 {
+    background-image: linear-gradient(to bottom right, yellowgreen, green, blueviolet);
+    box-shadow: 5px 10px 15px black;
+}
+
+.box2 {
+    background-image: radial-gradient(ellipse closest-corner at center, yellow, green, blueviolet);
+    box-shadow: -15px -10px 15px black;
+}
+
+.box3 {
+    background-image: conic-gradient(yellow, green, blueviolet);
+    box-shadow: 0px 8px 25px 20px black;
+}
